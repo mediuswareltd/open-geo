@@ -1,5 +1,7 @@
 # GeoReport Dashboard
 
+[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-0f766e)](https://mediuswareltd.github.io/open-geo/)
+
 A full-stack GIS-style property dashboard built with **Next.js 14**, **Leaflet.js / OpenStreetMap**, **TailwindCSS**, and a mock REST API. Suitable for portfolio and client demonstrations.
 
 ## Features
@@ -111,4 +113,16 @@ src/
 └── utils/
     ├── exportPDF.ts                   # jsPDF export
     └── exportCSV.ts                   # CSV export
+```
+
+## Documentation
+
+Full docs site (VitePress): **https://mediuswareltd.github.io/open-geo/**
+
+Local preview:
+
+```bash
+cd docs
+npm install
+npm run docs:dev
 ```
