@@ -5,6 +5,9 @@ hero:
   name: "Open Geo"
   text: "GIS-style property dashboard"
   tagline: "A Next.js 14 property map dashboard with Leaflet/OpenStreetMap, filters, inspection reports, and CSV/PDF export."
+  image:
+    src: /hero.svg
+    alt: "Open Geo"
   actions:
   - theme: brand
     text: Get started
