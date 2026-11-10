@@ -1,26 +1,21 @@
 # Getting started
 
-Install and run **Open Geo** locally.
+Run **Open Geo** on your machine.
 
-## Prerequisites
-
-- Working knowledge of TypeScript
-- Git and a terminal
-
-## Install
+## 1. Getting Started
 
 ```bash
+# 1. Install dependencies
 npm install
-```
 
-## Quick start
-
-```bash
+# 2. Start the development server
 npm run dev
-# live demo: https://open-geo.vercel.app
+
+# 3. Open in browser
+open http://localhost:3000
 ```
 
-## Next steps
+## Next
 
-- Read the [Guide](/guide) for features and usage.
-- Star or contribute on [GitHub](https://github.com/mediuswareltd/open-geo).
+- Full detail: [Guide](/guide)
+- Source: [github.com/mediuswareltd/open-geo](https://github.com/mediuswareltd/open-geo)

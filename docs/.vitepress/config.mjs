@@ -10,7 +10,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.svg' }],
   ],
   themeConfig: {
-    logo: { light: '/logo.svg', dark: '/logo.svg' },
+    logo: { light: '/logo.svg', dark: '/logo.svg', alt: "Open Geo" },
     siteTitle: "Open Geo",
     nav: [
       { text: 'Home', link: '/' },
@@ -45,7 +45,8 @@ export default defineConfig({
     },
     search: {
       provider: 'local'
-    }
+    },
+    outline: [2, 3]
   },
   // Isolate from repo-root PostCSS/Tailwind (Next.js app)
   vite: {
