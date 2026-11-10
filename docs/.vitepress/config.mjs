@@ -46,5 +46,13 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
+  },
+  // Isolate from repo-root PostCSS/Tailwind (Next.js app)
+  vite: {
+    css: {
+      postcss: {
+        plugins: []
+      }
+    }
   }
 })
